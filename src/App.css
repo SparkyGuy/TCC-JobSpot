@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@font-face {
+  font-family: Negrito;
+  src: url(/src/fonts/Simply_Bold.ttf);
+}
+*{
+  /*Mudar fonte*/
+font-family: 'Sora', sans-serif;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+  display: block;
+  background-image: url(/src/images/fundo.png);
+  background-size: cover;
+;
+
+
+}
+
+
+.text1{
+  
+  text-align: center;
+  align-items: center;
+  margin-top: 15vh;
+  font-weight: bold;
+  font-size:9vh;
+  color: #8655a2;
+  font-family: Negrito;
+}
+
+.text2{
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 8vh;
+  font-size: 5vh;
+  color: #83549f;
+  font-family: Negrito;
+}
+
+.text3{
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #83549f;
+  font-family: Negrito;
+
+}
+.elemento{
+  width: 50%;
+}
+
+.container{
+  display: flex;
+}
+.empty{
+  margin-top: 100px;
+}
+.botao1{
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 18px;
+
+  background: #83549f;
+  width: 100px;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-style: solid;
+  border-color: hsl(278, 31%, 48%);
+}
+
+.botao2{
+ 
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-size: 18px;
+  background: #c1c1e6;
+  width: 100px;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: hsl(278, 31%, 48%);
+  color: #83549f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botoes{
+  margin-right: 10vh;
+  text-align: center;
+  align-items: center;
+}
+.div{}
+
