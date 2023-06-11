@@ -9,12 +9,19 @@ font-family: 'Sora', sans-serif;
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+
 }
 
+.logo{
+  margin-top: 15px;
+}
 body {
-  display: block;
-  background-image: url(/src/images/fundo.png);
+
+  background-image: url(/src/images/fundo5.svg);
   background-size: cover;
+  background-position: center center;
+
+
 ;
 
 
@@ -28,7 +35,7 @@ body {
   margin-top: 15vh;
   font-weight: bold;
   font-size:9vh;
-  color: #8655a2;
+  color: whitesmoke;
   font-family: Negrito;
 }
 
@@ -38,7 +45,7 @@ body {
   font-weight: bold;
   margin-top: 8vh;
   font-size: 5vh;
-  color: #83549f;
+  color: white;
   font-family: Negrito;
 }
 
@@ -47,7 +54,7 @@ body {
   align-items: center;
   font-weight: bold;
   font-size: 40px;
-  color: #83549f;
+  color: white;
   font-family: Negrito;
 
 }
@@ -67,9 +74,9 @@ body {
   margin-left: 100px;
   font-size: 18px;
 
-  background: #83549f;
+  background: rgb(101, 33, 141);
   width: 100px;
-  padding: 20px 50px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -77,7 +84,7 @@ body {
   cursor: pointer;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   border-style: solid;
-  border-color: hsl(278, 31%, 48%);
+  border-color: rgb(101, 33, 141);
 }
 
 .botao2{
@@ -86,23 +93,24 @@ body {
   margin-top: 100px;
   margin-left: 100px;
   font-size: 18px;
-  background: #c1c1e6;
+
   width: 100px;
-  padding: 20px 50px;
+  padding: 20px 30px;
   text-align: center;
   text-decoration: none;
   color: #fff;
   border-radius: 40px;
   cursor: pointer;
   border-style: solid;
-  border-color: hsl(278, 31%, 48%);
-  color: #83549f;
+  border-color: rgb(101, 33, 141);
+  color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .botoes{
   margin-right: 10vh;
   text-align: center;
+  
   align-items: center;
 }
 .div{}
